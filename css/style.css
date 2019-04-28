@@ -1,33 +1,15 @@
 /**
  * CSS style for indexoutofbounds.com
- */ 
+ */
 
-.mdl-layout__header {
-  margin-bottom: 25px;
-  color: #9e9e9e;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  line-height: 1.3;
 }
 
-.mdl-layout__header-row {
-  background-color: #424242;
-}
-
-.mdl-layout__header-row .mdl-navigation__link, .mdl-navigation__link {
-  color: #9e9e9e;
-}
-
-.mdl-mini-footer {
-  /*background-color: #ffffff;*/
-}
-
-.iob-card .mdl-card__supporting-text {
-  padding: 0;
-}
-
-.iob-max-width {
-  max-width: 900px;
+.content {
+  max-width: 38rem;
+  padding: 2rem;
   margin: auto;
-}
-
-.no-padding {
-  padding: 0;
 }
